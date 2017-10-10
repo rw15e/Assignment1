@@ -2,26 +2,25 @@
 // 10/10/17
 // CEN4020 HW2
 
-/*
+
 #include <string>
 #include "Weapon.h"
 
-#ifndef COMMONSPEAR_H
-#define COMMONSPEAR_H
+#ifndef CRAZYRANDOMSWORD_H
+#define CRAZYRANDOMSWORD_H
 
-/**
- * Defines the behavior of a common spear (hitpoint = 40, ignores 20% of 
- * armor points)
- */
-class CommonSpear : public Weapon {
-public:
+//• CrazyRandomSword (10 points): hitpoints = random integer number between 10
+//and 100. Ignores a random amount of integer armor points, ranging from to 0 to
+//half of the armor the weapon hits.
 
-    CommonSpear() : Weapon("Common spear", 40.0) {
-    }
-    virtual ~CommonSpear() {}; 
-    virtual double hit(double armor);
+class CrazyRandomSword : public Weapon {
+    public:
+        CrazyRandomSword() : Weapon("Crazy Random Sword", 0){
+            
+        }
+    
+    
+}
 
-};
 
-#endif /* COMMONSPEAR_H */
-*/
+#endif
