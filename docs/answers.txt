@@ -1,1 +1,34 @@
+A. C:\Users\Ryan\Documents\GitHub\CEN4020>git commit -a -m "Commit"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
 
+C:\Users\Ryan\Documents\GitHub\CEN4020>git push
+Everything up-to-date
+
+
+B. 4 commits. I used the command git rev-list --count master
+
+
+C. Command used "git log -p .gitignore" last modified date: Wed Sep 27 16:31:42 2017
+
+
+D. cb30d72a3d94c108f393c163a35c1cc9bf18ffca and 36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+
+
+E. 1. Branches are helpful if you make a mistake you are wokring on a "backup" and you don't lose all your original work. You can push updates once they are complete and tested 100%. 
+   2. Branches are also very helpful when working in a team setting because things would get messy fast if multipule people were editing the same files at the same time. Everyone working on their own branch solves this issue. 
+
+
+F. The git log command shows a list of previous commits while the git status command shows changes made since the last commit. 
+
+
+G. "git log -- Weapon.h"
+
+
+H. "git log -- grep="file""
+
+
+I. 1. Inheritance is when gets its properties from another class. (like parent/child classes)
+   2. Polymorphism is when a child class overloads one of its parents functions to work in a different manner for its specific needs.  
+   3. Encapsulaton is when code is written in a way that the user is on a "need-to-know" basis and cannot access any more of the data than they need. This includes using Public, Private, and Protected access modifiers. 
