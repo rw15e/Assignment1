@@ -2,26 +2,22 @@
 // 10/10/17
 // CEN4020 HW2
 
-
-/*
 #include <string>
 #include "Weapon.h"
 
-#ifndef COMMONSWORD_H
-#define COMMONSWORD_H
+#ifndef SIMPLEAXE_H
+#define SIMPLEAXE_H
 
-/**
- * Defines the behavior of a common sword (hitpoint = 50, it does not ignore armor points)
- */
-class CommonSword : public Weapon {
-public:
+//SimpleAxe (5 points): hitpoints = 60. If armor is greater than 0 and less than 20,
+//the axe will ignore all the armor points.
 
-    CommonSword() : Weapon("Common sword", 50.0) {
-    }
-    virtual ~CommonSword() {}; 
-    virtual double hit(double armor);
+class SimpleAxe : public Weapon{
+    public:
+        SimpleAxe() : Weapon("Simple Axe", 60.0){}
+        virtual ~SimpleAxe() {}; 
+        virtual double hit(double armor);
+    
+   
+}
 
-};
-
-#endif /* COMMONSWORD_H */
-*/
+#endif
