@@ -20,12 +20,9 @@ class CrazyRandomSword : public Weapon{
         CrazyRandomSword() : Weapon("Crazy Random Sword", 0){
             srand(time(NULL));
         }
-    virtual ~CrazyRandomSword({
-    
-    };
+    	virtual ~CrazyRandomSword(){};
 	virtual double hit(double armor);
     
 }
-
 
 #endif
