@@ -11,7 +11,7 @@
 
 double CrazyRandomSword::hit(double armor){
 	armor = armor - (rand() % ((int)floor(armor) / 2));
-    int randInt = rand() % (100 - 10 + 1 ) + 10 // random int from 10-100
-    double damage = randInt - tempArmor;
+    	int randInt = rand() % (100 - 10 + 1 ) + 10 // random int from 10-100
+	double damage = randInt - tempArmor;
 	return damage;
 }
