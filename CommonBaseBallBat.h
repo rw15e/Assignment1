@@ -16,8 +16,8 @@
 class CommonBaseBallBat : public Weapon{
     public:
         CommonBaseBallBat() : Weapon("Common Baseball Bat", 40){};
-        virtual ~CommonBaseBallBat({};
-	      virtual double hit(double armor);
+        virtual ~CommonBaseBallBat(){};
+	virtual double hit(double armor);
     
 }
 
