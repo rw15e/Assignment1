@@ -13,10 +13,10 @@
 
 //CommonBaseBallBat hitpoints = 40 and has a 25% chance to ignore all the armor.
 
-class CrazyRandomSword : public Weapon{
+class CommonBaseBallBat : public Weapon{
     public:
-        CrazyRandomSword() : Weapon("Common Baseball Bat", 40){};
-        virtual ~CrazyRandomSword({};
+        CommonBaseBallBat() : Weapon("Common Baseball Bat", 40){};
+        virtual ~CommonBaseBallBat({};
 	      virtual double hit(double armor);
     
 }
