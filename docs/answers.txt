@@ -32,3 +32,6 @@ H. "git log -- grep="file""
 I. 1. Inheritance is when gets its properties from another class. (like parent/child classes)
    2. Polymorphism is when a child class overloads one of its parents functions to work in a different manner for its specific needs.  
    3. Encapsulaton is when code is written in a way that the user is on a "need-to-know" basis and cannot access any more of the data than they need. This includes using Public, Private, and Protected access modifiers. 
+   
+   
+7. RoleGame is using encapsulation because the user of the class does not need to know how the game works internally, only how to call the proper functions.
